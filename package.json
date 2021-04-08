@@ -12,12 +12,12 @@
   "dependencies": {
     "@inklesspen/genderrolls": "^1.0.2",
     "bluebird": "^3.4.1",
-    "node-fetch": "^1.5.3",
+    "node-fetch": "^2.6.1",
     "querystring": "^0.2.0",
     "redis": "^2.6.3",
-    "restify": "^4.2.0",
+    "restify": "^8.5.1",
     "slack": "^11.0.2",
-    "yargs": "^6.3.0"
+    "yargs": "^16.2.0"
   },
   "engines": {
     "node": "12.16.1"
