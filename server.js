@@ -19,7 +19,7 @@ const scopes = [
   'chat:write:user'
 ]
 
-server.use(restify.bodyParser())
+server.use(restify.plugins.bodyParser())
 const resources = [
   command('/command'),
   install('/install', scopes),
